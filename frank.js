@@ -29,4 +29,6 @@ app.get('/echo.json', function(req, res, next, options) {
 });
 
 // hier gehts los
+// und noch ein satz
+// und ein dritter
 app.start(applicationContext);

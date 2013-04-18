@@ -8,3 +8,5 @@ A ArangoDB Foxx Demo Application
       (       \ /
       /|/--\|\ V
       " "   " "
+
+     °°°°°°°°°°°°
