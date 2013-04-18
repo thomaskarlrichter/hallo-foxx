@@ -28,9 +28,4 @@ app.get('/echo.json', function(req, res, next, options) {
   res.body = JSON.stringify(result);
 });
 
-
-// .............................................................................
-// GO, Foxx, GO
-// .............................................................................
-
 app.start(applicationContext);
