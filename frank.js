@@ -28,4 +28,5 @@ app.get('/echo.json', function(req, res, next, options) {
   res.body = JSON.stringify(result);
 });
 
+// hier gehts los
 app.start(applicationContext);
