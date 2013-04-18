@@ -28,17 +28,6 @@ app.get('/echo.json', function(req, res, next, options) {
   res.body = JSON.stringify(result);
 });
 
-// .............................................................................
-// convert the response object to text
-// .............................................................................
-
-app.get('/echo.txt', function(req, res, next, options) {
-  var result = { request : req, options : options };
-
-  res.responseCode = actions.HTTP_OK;
-  res.contentType = "text/plain; charset=utf-8";
-  res.body = arangodb.inspect(result);
-});
 
 // .............................................................................
 // GO, Foxx, GO
